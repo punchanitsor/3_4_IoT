@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — นักเรียน ม.3</title>
+    <meta name="description" content="Portfolio นักเรียน ม.3 สำหรับยื่นประกอบการสัมภาษณ์เข้าศึกษาต่อ ม.4 สายวิทย์-คณิต" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-black text-slate-100 antialiased">
+    <main class="min-h-screen max-w-3xl mx-auto p-4">
+      <!-- Hero -->
+      <section id="hero" class="flex flex-col sm:flex-row items-center gap-4 py-6">
+        <div class="w-28 h-28 rounded-full bg-slate-800 flex-shrink-0 flex items-center justify-center">
+          <!-- Simple SVG avatar -->
+          <svg class="w-20 h-20 text-brand-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.5" />
+            <path d="M4 20c1.5-4 6-6 8-6s6.5 2 8 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="flex-1">
+          <h1 class="text-2xl sm:text-3xl font-semibold">นางสาวปัณฑชนิต สอนตน</h1>
+          <p class="text-sm text-slate-300">ม.3 — มุ่งหวังสายการเรียน: วิทย์-คณิต</p>
+          <p class="mt-2 text-brand-500 font-medium">Catchphrase: ดิฉันจะเป็นที่หนึ่งในใจทุกคน</p>
+        </div>
+        <div class="w-full sm:w-auto mt-3 sm:mt-0">
+          <a href="#contact" class="inline-block bg-brand-500 text-white px-4 py-2 rounded-md text-sm">ติดต่อ / ให้สัมภาษณ์</a>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <!-- About & Education -->
+      <section id="about" class="py-4">
+        <h2 class="text-lg font-semibold">About & Education</h2>
+        <div class="mt-2 text-sm text-slate-300">
+          <ul class="list-disc list-inside space-y-1">
+            <li>ประวัติย่อ: นักเรียน ม.3 สนใจคณิตศาสตร์และกิจกรรมวิทย์-คณิต</li>
+            <li>คติประจำใจ: “ทำวันนี้ให้ดีที่สุด เพื่อวันพรุ่งนี้ที่ดีกว่า”</li>
+            <li>โรงเรียน: โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย — เกรดเฉลี่ยสะสม (GPAX): 3.75</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <!-- Skills -->
+      <section id="skills" class="py-4">
+        <h2 class="text-lg font-semibold">Skills</h2>
+        <div class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <div>
+            <p class="font-medium">ทักษะเด่น</p>
+            <ul class="list-disc list-inside mt-1 text-slate-300">
+              <li>สามารถแก้ปัญหาทางคณิตศาสตร์ได้เป็นอย่างดี</li>
+              <li>มีทักษะในการค้าขาย</li>
+              <li>สามารถนอนได้ทั้งวัน</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-medium">ทักษะอื่นๆ</p>
+            <ul class="list-disc list-inside mt-1 text-slate-300">
+              <li>การทำงานร่วมเป็นทีม</li>
+              <li>การจัดการเวลาเบื้องต้น</li>
+              <li>ทักษะคอมพิวเตอร์พื้นฐาน</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Progress-like indicators -->
+        <div class="mt-4 space-y-3">
+          <div>
+            <div class="flex justify-between text-xs text-slate-400"><span>คณิตศาสตร์</span><span>85%</span></div>
+            <div class="w-full bg-slate-700 h-2 rounded">
+              <div class="bg-brand-500 h-2 rounded" style="width:85%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs text-slate-400"><span>ค้าขาย / การเจรจา</span><span>70%</span></div>
+            <div class="w-full bg-slate-700 h-2 rounded">
+              <div class="bg-brand-500 h-2 rounded" style="width:70%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs text-slate-400"><span>ความอดทน (นอน)</span><span>99%</span></div>
+            <div class="w-full bg-slate-700 h-2 rounded">
+              <div class="bg-brand-500 h-2 rounded" style="width:99%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <!-- Awards & Projects -->
+      <section id="awards" class="py-4">
+        <h2 class="text-lg font-semibold">Awards & Projects</h2>
+        <p class="text-sm text-slate-600 mt-1">ผลงานที่ภูมิใจ (เลือก 3 รายการ)</p>
+        <div class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <!-- Card 1 -->
+          <article class="border rounded-lg p-3 bg-slate-900">
+            <h3 class="font-medium">การแข่งขันแก้ปัญหาทางคณิตศาสตร์ระดับประเทศ</h3>
+            <p class="text-sm text-slate-300 mt-1">ทำอะไร: แข่งขันแก้ปัญหาคณิตศาสตร์ภายใต้เวลาจำกัด<br/>ได้เรียนรู้: การจัดการเวลาและเทคนิคการแก้ปัญหา</p>
+          </article>
+          <!-- Card 2 -->
+          <article class="border rounded-lg p-3 bg-slate-900">
+            <h3 class="font-medium">โปรเจคทดลองฟิสิกส์: การเคลื่อนที่</h3>
+            <p class="text-sm text-slate-300 mt-1">ทำอะไร: สร้างและทดสอบโมเดลการเคลื่อนที่<br/>ได้เรียนรู้: การเก็บข้อมูลและสรุปผล</p>
+          </article>
+          <!-- Card 3 -->
+          <article class="border rounded-lg p-3 bg-slate-900">
+            <h3 class="font-medium">เกียรติบัตรจิตอาสา</h3>
+            <p class="text-sm text-slate-300 mt-1">ทำอะไร: ร่วมกิจกรรมชุมชน 30 ชั่วโมง<br/>ได้เรียนรู้: การทำงานร่วมกับผู้อื่น</p>
+          </article>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <!-- Activities -->
+      <section id="activities" class="py-4">
+        <h2 class="text-lg font-semibold">Activities</h2>
+        <p class="text-sm text-slate-400 mt-1">ตัวอย่างภาพกิจกรรม (Mobile-friendly gallery) — ใช้ placeholder</p>
+        <div class="mt-3 grid grid-cols-3 sm:grid-cols-6 gap-2">
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+1" alt="กิจกรรม 1" class="w-full h-20 object-cover rounded"/>
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+2" alt="กิจกรรม 2" class="w-full h-20 object-cover rounded"/>
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+3" alt="กิจกรรม 3" class="w-full h-20 object-cover rounded"/>
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+4" alt="กิจกรรม 4" class="w-full h-20 object-cover rounded"/>
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+5" alt="กิจกรรม 5" class="w-full h-20 object-cover rounded"/>
+          <img src="https://via.placeholder.com/150?text=กิจกรรม+6" alt="กิจกรรม 6" class="w-full h-20 object-cover rounded"/>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <!-- Contact -->
+      <section id="contact" class="py-4">
+        <h2 class="text-lg font-semibold">Contact</h2>
+        <p class="text-sm text-slate-700 mt-2">ช่องทางการติดต่อ (สั้น กระชับ)</p>
+        <ul class="mt-2 text-sm list-none space-y-1 text-slate-300">
+          <li><strong>อีเมล:</strong> ไม่เปิดเผยต่อสาธารณะ</li>
+          <li><strong>โทร:</strong> 0123456789</li>
+          <li><strong>ลิงก์ผลงาน:</strong> <a href="#awards" class="text-brand-500">ดูผลงานในหน้า</a></li>
+        </ul>
+        <p class="text-xs text-slate-500 mt-3">หมายเหตุ: นำลิงก์นี้ไปสร้าง QR Code เพื่อสแกนจากโทรศัพท์ได้ทันที</p>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                brand: {
+                  50: '#fff0f2',
+                  100: '#ffd7de',
+                  500: '#ff073a'
+                }
+              }
+            }
+          }
+        }
+      </script>
